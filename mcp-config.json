@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "Figma": {
+      "url": "http://127.0.0.1:3845/mcp"
+    },
+    "swagger-mcp": {
+      "command": "node",
+      "args": ["/Users/edy/Desktop/swagger-mcp/dist/index.js"],
+      "env": {}
+    }
+  }
+} 

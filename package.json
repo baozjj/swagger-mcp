@@ -1,0 +1,29 @@
+{
+  "name": "swagger-mcp",
+  "version": "1.0.0",
+  "description": "MCP 服务，用于获取 Swagger/OpenAPI 接口文档",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "swagger", "openapi", "cursor"],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "axios": "^1.11.0",
+    "cheerio": "^1.0.0",
+    "swagger-parser": "^10.0.3",
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
